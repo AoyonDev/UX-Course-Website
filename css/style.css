@@ -1,0 +1,411 @@
+/* ===== COMMON CSS START ===== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ a{
+     text-decoration: none !important;
+     display: inline-block;
+ }
+ ul,ol,li{
+     list-style-type: none;
+ }
+ body{
+     overflow-x: hidden;
+     background: #2c3834 !important;
+ }
+ html,body{
+     scroll-behavior: unset !important;
+ }
+.line-break{
+    display: block;
+}
+/* ===== COMMON CSS   END ===== */
+
+
+
+
+
+
+
+
+/* ===========================
+    TITLE PART CSS START
+=========================== */
+
+#title-part{
+    padding: 100px 0px;
+}
+.title-row{
+    justify-content: center;
+}
+.title-text{
+    text-align: center;
+}
+
+.title-text h2{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 82px;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.title-magic-ani{
+    background: linear-gradient(90deg, rgba(31,250,170,1), rgba(38,120,200,1), rgba(31,250,170,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    animation: title-magic-ani 10s infinite linear;
+}
+@keyframes title-magic-ani {
+        
+    0%{
+        background-position: 0% center;
+    }
+    50%{
+        background-position: 200% center;
+    }
+}
+
+.title-text p{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #FFF;
+    padding-top: 25px;
+}
+.title-yellow-text{
+    color: #fcb500;
+}
+
+/* ===========================
+    TITLE PART CSS END
+=========================== */
+
+
+
+
+
+
+
+
+/* ===========================
+    COURSE MODULE PART CSS START
+=========================== */
+
+#course-module{
+
+}
+.course-row{
+    justify-content: space-around;
+    display: flex;
+}
+.module-left{
+
+}
+.course-module-main{
+
+}
+.course-module-wrapper{
+    display: flex;
+    justify-content: space-between;
+    background-color: #555;
+    margin-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 24px;
+    padding-left: 40px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.card-1{
+    margin-right: 40px;
+}
+.module-card-bg {
+    width: 215px;
+    margin-right: 40px;
+}
+.module-info{
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+}
+.module-icon{
+    font-size: 24px;
+    color: #FFF;
+}
+.module-icon i{
+    background: linear-gradient(180deg, rgba(31,250,170,1), rgba(38,120,200,1), rgba(31,250,170,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.module-text{
+    margin-left: 25px;
+}
+.module-text .module-week{
+    color: #fcb500;
+}
+
+.module-text h5{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFF;
+    margin-top: 14px;
+}
+.mentor-info{
+    border-radius: 8px !important;
+    margin-top: -10px;
+}
+.mentor-img-info{
+
+}
+.mentor-info-bg{
+    background: #FFF;
+    margin-right: 40px;
+    border-radius: 8px;
+}
+
+.mentor-info-upper-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.istructor-text{
+    background: linear-gradient(90deg, rgba(31,250,170,1), rgba(38,120,200,1), rgba(31,250,170,1));
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    margin-top: -20px;
+    border-radius: 4px;
+    padding: 8px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    background-size: 200%;
+    animation: instructor-ani 200s infinite linear;
+    color: #FFF;
+}
+@keyframes instructor-ani {
+        
+    0%{
+        background-position: 0% center;
+    }
+    50%{
+        background-position: -2000% center;
+    }
+    100%{
+        background-position: 0% center;
+    }
+}
+
+
+.mentor-img-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.mentor-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(31,250,170,1), rgba(38,120,200,1), rgba(31,250,170,1));
+    object-fit: cover;
+    overflow: hidden;
+    margin-left: -90px;
+    background-size: 200%;
+    animation: mentor-img-bg 200s infinite linear;
+}
+@keyframes mentor-img-bg {
+        
+    0%{
+        background-position: 0% center;
+    }
+    50%{
+        background-position: -2000% center;
+    }
+    100%{
+        background-position: 0% center;
+    }
+}
+.mentor-img img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.mentor-img-text{
+    margin-left: -110px;
+}
+
+.module-bottom{
+    margin-top: -10px;
+    z-index: -1;
+    position: relative;
+}
+.module-bottom-text{
+    text-align: center;
+    background: #555;
+    padding: 10px 25px;
+    margin-right: 40px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.module-bottom-text h5{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+.course-video{
+    text-align: center;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.video-text{
+    margin-top: 25px;
+}
+.video-text h4{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 38px;
+    color: #FFF;
+}
+.video-text h4 a{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 38px;
+    background: linear-gradient(90deg, rgb(250, 235, 31), rgb(255, 136, 0), rgb(229, 233, 9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    animation: video-text-link 200s infinite linear;
+}
+@keyframes video-text-link {
+        
+    0%{
+        background-position: 0% center;
+    }
+    50%{
+        background-position: -2000% center;
+    }
+    100%{
+        background-position: 0% center;
+    }
+}
+
+.course-btn{
+    margin-top: 50px;
+    transition: all linear 0.2s;
+}
+.course-btn a button{
+    background: transparent;
+    border: none;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFF;
+    padding: 10px 20px;
+}
+.course-btn:hover{
+    transform: scale(1.2);
+}
+
+
+
+.gradient-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(31,250,170,1), rgba(38,120,200,1), rgba(31,250,170,1));
+    background-size: 200% auto;
+    animation: gradient-animation 200s linear infinite;
+  }
+  
+  /* Keyframe animation for the button */
+  @keyframes gradient-animation {
+    0%{
+        background-position: 0% center;
+    }
+    50%{
+        background-position: -2000% center;
+    }
+    100%{
+        background-position: 0% center;
+    }
+  }
+
+
+/* ===========================
+    COURSE MODULE PART CSS END
+=========================== */
+
+
+
+
+
+
+
+
+/* ===========================
+    HOME PART CSS START
+=========================== */
+
+
+
+/* ===========================
+    HOME PART CSS END
+=========================== */
+
+
+
+
+
+
+
+
+/* ===========================
+    HOME PART CSS START
+=========================== */
+
+
+
+/* ===========================
+    HOME PART CSS END
+=========================== */

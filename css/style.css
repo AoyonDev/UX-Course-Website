@@ -50,7 +50,7 @@
 }
 
 .title-text h2{
-    font-family: 'League Spartan', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 68px;
     font-weight: 600;
     color: #FFF;
@@ -74,8 +74,8 @@
 }
 
 .title-text p{
-    font-family: 'League Spartan', sans-serif;
-    font-size: 22px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
     font-weight: 400;
     color: #70d8be;
     padding-top: 25px;
@@ -153,8 +153,8 @@
 }
 
 .module-text h5{
-    font-family: 'League Spartan', sans-serif;
-    font-size: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
     font-weight: 500;
     color: #F7F7F7;
     margin-top: 14px;
@@ -185,7 +185,7 @@
     margin-top: -20px;
     border-radius: 4px;
     padding: 8px;
-    font-family: 'League Spartan', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
@@ -248,7 +248,7 @@
 }
 
 .mentor-img-text h5{
-    font-family: 'League Spartan', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 24px;
@@ -271,8 +271,8 @@
     background: #003366;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: 'League Spartan', sans-serif;
-    font-size: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 26px;
     font-weight: 600;
     background-size: 200%;
     animation: mentor-name-ani 10s infinite linear;
@@ -428,8 +428,8 @@
     border-bottom-right-radius: 8px;
 }
 .module-bottom-text h5{
-    font-family: 'League Spartan', sans-serif;
-    font-size: 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     color: #FFF;
@@ -466,15 +466,15 @@
     margin-top: 25px;
 }
 .video-text h4{
-    font-family: 'League Spartan', sans-serif;
-    font-size: 28px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 26px;
     font-weight: 500;
     line-height: 38px;
     color: #FFF;
 }
 .video-text h4 a{
-    font-family: 'League Spartan', sans-serif;
-    font-size: 28px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 26px;
     font-weight: 500;
     line-height: 38px;
     background: linear-gradient(90deg, #00a9ff, #FFD700 , #00a9ff);
@@ -503,7 +503,7 @@
 .course-btn a button{
     background: transparent;
     border: none;
-    font-family: 'League Spartan', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 24px;
@@ -575,8 +575,8 @@
 }
 
 .heading h5{
-    font-family: 'League Spartan', sans-serif;
-    font-size: 64px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 44px;
     font-weight: 500;
     background: linear-gradient(90deg, #00a9ff, #FFD700 , #00a9ff);
     -webkit-background-clip: text;
@@ -584,8 +584,8 @@
 }
 
 .heading p{
-    font-family: 'League Spartan', sans-serif;
-    font-size: 36px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 28px;
     font-weight: 400;
     line-height: 28px;
     color: #FFF;
@@ -618,7 +618,7 @@
     color: #00ffd5;
 }
 .card-text h4{
-    font-family: 'League Spartan', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     padding-bottom: 22px;
     padding-left: 22px;
     padding-right: 8px;
@@ -637,7 +637,7 @@
     padding-bottom: 24px;
     padding-left: 24px;
     padding-right: 8px;
-    font-family: 'League Spartan', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 22px;
     font-weight: 500;
     line-height: 32px;
@@ -647,7 +647,7 @@
     padding-bottom: 24px;
     padding-left: 24px;
     padding-right: 8px;
-    font-family: 'League Spartan', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-size: 22px;
     font-weight: 500;
     line-height: 32px;
@@ -687,8 +687,8 @@
 =========================== */
 
 #work-help{
-    /* padding: 100px 0px; */
-    padding-bottom: 500px;
+    padding-top: 100px;
+    padding-bottom: 150px;
 }
 .work-head{
     margin-left: 85px;
@@ -698,8 +698,8 @@
 }
 
 .work-heading h5{
-    font-family: 'League Spartan', sans-serif;
-    font-size: 64px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 44px;
     font-weight: 500;
     background: linear-gradient(90deg, #00a9ff, #FFD700 , #00a9ff);
     -webkit-background-clip: text;
@@ -707,10 +707,10 @@
 }
 
 .work-heading p{
-    font-family: 'League Spartan', sans-serif;
-    font-size: 26px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 38px;
     color: #FFF;
     padding-top: 20px;
 }
@@ -718,8 +718,244 @@
     color: #FFD700;
 }
 
+
+.work-img-row{
+    justify-content: center;
+}
+.work-image{
+    text-align: center;
+    margin: 0 auto;
+}
+.work-image img{
+    scale: 1.1;
+}
+
+
+
 /* ===========================
     WORK HELP PART CSS END
+=========================== */
+
+
+
+
+
+
+
+
+/* ===========================
+    PRICING PART CSS START
+=========================== */
+
+#pricing-part{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.pricing-title-row{
+
+}
+.pricing-title{
+
+}
+
+.pricing-title h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 54px;
+    font-weight: 500;
+    background: linear-gradient(90deg, #00a9ff, #FFD700 , #00a9ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pricing-title p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FFF;
+    padding-top: 20px;
+}
+.common-color-text{
+    color: #FFD700;
+}
+
+
+.pricing-row{
+    padding-top: 40px;
+}
+
+.pricing-card-bg{
+    background: #555;
+    padding: 20px 20px;
+    margin: 0px 40px;
+    border-radius: 12px;
+    height: 420px;
+}
+
+.pricing-card-info{
+    position: relative;
+}
+
+.card-upper-name {
+    position: absolute;
+    top: -60px;
+    left: 52px;
+}
+
+.card-upper-name h4{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #FFD700;
+}
+
+.card-name{
+
+}
+
+.card-name h5{
+    text-align: center;
+    margin: 0 auto !important;
+    width: 200px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFF;
+    background: #7c7c7c;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+}
+
+.card-img-text-wrapper{
+    display: flex;
+    justify-content: center;
+}
+#pricing-part .slick-slide img{
+    display: inline;
+}
+#pricing-part .slick-list.draggable {
+    padding: 100px 0px !important;
+}
+.card-image{
+    margin: 0 auto !important;
+    text-align: center !important;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.card-image img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-intro{
+    padding-top: 10px;
+}
+
+.card-intro h6{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    background: linear-gradient(90deg, #1bffc6, #03ff81 , #1bffc6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-intro p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+
+.pricing-course-price{
+    position: relative;
+}
+.price-bg {
+    background: #FFF;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    border-radius: 8px;
+    width: 117%;
+    position: absolute;
+    top: 10px;
+    left: -20px;
+}
+.price-bg h4{
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #555;
+}
+.price-bg h4 span{
+    background-image: linear-gradient(90deg, #026191, #40bba6 , #026191);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200% auto;
+    animation: price-ani 100s linear infinite;
+    font-weight: 600;
+}
+@keyframes price-ani {
+    0%{
+        background-position: 0% center;
+    }
+    50%{
+        background-position: -2000% center;
+    }
+    100%{
+        background-position: 0% center;
+    }
+  }
+
+
+
+
+
+
+.prev-next-icon{
+    position: relative;
+}
+.prev-next-icon i{
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #000000;
+}
+.prev{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #fec600;
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    text-align: center;
+}
+.next{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #fec600;
+    position: absolute;
+    top: 50%;
+    right: 42%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* ===========================
+    PRICING PART CSS END
 =========================== */
 
 
@@ -745,12 +981,15 @@
 
 
 
+
+
+
+
+
+
 /* ===========================
     ANIMATED SECTIONS CSS START
 =========================== */
-
-
-
 
 .div{
    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
@@ -764,11 +1003,6 @@
   margin: 100px 0;
   border-radius: 7px;
 }
-
-  
-  
-
-  
 
 /* ===========================
     ANIMATED SECTIONS CSS END

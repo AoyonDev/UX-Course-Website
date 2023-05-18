@@ -8,6 +8,7 @@
 
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <link rel="stylesheet" href="css/all.min.css">
     
 <!-- ----- LINKD FILES -----  -->
@@ -25,7 +26,7 @@
         TITLE PART START
     ======================= -->
 
-<section id="title-part">
+<section id="title-part" >
     <div class="container">
         <div class="row title-row">
             <div class="col-lg-8">
@@ -209,14 +210,14 @@
 <section id="course-info">
     <div class="container">
         <div class="row m-auto">
-            <div class="col-lg-8 course-head">
-                <div class="heading">
+            <div class="col-lg-12 course-head">
+                <div class="heading"  data-aos="fade-in">
                     <h5>What will you learn in the workshop?</h5>
                     <p>In a <span class="common-color-text">Practical First</span> approach, this is what you</p>
                 </div>
             </div>
         </div>
-        <div class="row course-info-row">
+        <div class="row course-info-row"  data-aos="fade-left">
             <div class="col-lg-5">
                 <div class="course-card">
                     <div class="card-info">
@@ -254,7 +255,7 @@
                 </div>
             </div>
         </div>
-        <div class="row course-info-row">
+        <div class="row course-info-row"  data-aos="fade-right">
             <div class="col-lg-5">
                 <div class="course-card">
                     <div class="card-info">
@@ -290,7 +291,7 @@
                 </div>
             </div>
         </div>
-        <div class="row course-info-row">
+        <div class="row course-info-row" data-aos="fade-up">
             <div class="col-lg-5">
                 <div class="course-card">
                     <div class="card-info">
@@ -343,13 +344,24 @@
 
 
     <!-- ======================
-        NAVBAR PART START
+        HELP PART START
     ======================= -->
 
-
+<section id="work-help">
+    <div class="container">
+        <div class="row m-auto">
+            <div class="col-lg-12 work-head">
+                <div class="work-heading" data-aos="fade-in">
+                    <h5>How will this workshop help?</h5>
+                    <p>In every concept you learn, the <span class="common-color-text">approach I use</span> would be to teach you in terms of <span class="common-color-text">3 main things</span> required in the <span class="common-color-text">approach I use</span> for any UX designer today.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- =====================
-        NAVBAR PART END
+        HELP PART END
     =====================  -->
 
 
@@ -370,8 +382,10 @@
     <!-- =====================
         NAVBAR PART END
     =====================  -->
-
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+  AOS.init();
+</script>
 
 <!-- ----- LINKD FILES -----  -->
 

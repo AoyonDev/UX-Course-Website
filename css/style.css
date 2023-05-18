@@ -576,7 +576,7 @@
 
 .heading h5{
     font-family: 'League Spartan', sans-serif;
-    font-size: 44px;
+    font-size: 64px;
     font-weight: 500;
     background: linear-gradient(90deg, #00a9ff, #FFD700 , #00a9ff);
     -webkit-background-clip: text;
@@ -585,7 +585,7 @@
 
 .heading p{
     font-family: 'League Spartan', sans-serif;
-    font-size: 26px;
+    font-size: 36px;
     font-weight: 400;
     line-height: 28px;
     color: #FFF;
@@ -683,6 +683,53 @@
 
 
 /* ===========================
+    WORK HELP PART CSS START
+=========================== */
+
+#work-help{
+    /* padding: 100px 0px; */
+    padding-bottom: 500px;
+}
+.work-head{
+    margin-left: 85px;
+}
+.work-heading{
+    padding-bottom: 50px;
+}
+
+.work-heading h5{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    background: linear-gradient(90deg, #00a9ff, #FFD700 , #00a9ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.work-heading p{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFF;
+    padding-top: 20px;
+}
+.common-color-text{
+    color: #FFD700;
+}
+
+/* ===========================
+    WORK HELP PART CSS END
+=========================== */
+
+
+
+
+
+
+
+
+/* ===========================
     HOME PART CSS START
 =========================== */
 
@@ -690,4 +737,39 @@
 
 /* ===========================
     HOME PART CSS END
+=========================== */
+
+
+
+
+
+
+
+/* ===========================
+    ANIMATED SECTIONS CSS START
+=========================== */
+
+
+
+
+.div{
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #1cd8d2, #93edc7);
+  color: white;
+  margin: 100px 0;
+  border-radius: 7px;
+}
+
+  
+  
+
+  
+
+/* ===========================
+    ANIMATED SECTIONS CSS END
 =========================== */

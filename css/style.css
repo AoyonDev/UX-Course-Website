@@ -953,9 +953,136 @@
     text-align: center;
 }
 
+.note{
+    margin-top: 100px;
+}
+
+.note p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFF;
+}
+
+
+
+
+.pricing-btns{
+    text-align: center;
+    margin-top: 50px;
+    transition: all linear 0.2s;
+}
+.pricing-btns a button{
+    background: transparent;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFF;
+    padding: 10px 20px;
+}
+.pricing-btns:hover{
+    transform: scale(1.2);
+}
+
+
+.gradient-button {
+    display: inline-block;
+    padding: 12px 44px;
+    font-size: 28px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(90deg, #026191, #40bba6 , #026191);
+    background-size: 200% auto;
+    animation: pricing-animation 200s linear infinite;
+  }
+  
+  /* Keyframe animation for the button */
+  @keyframes pricing-animation {
+    0%{
+        background-position: 0% center;
+    }
+    50%{
+        background-position: -2000% center;
+    }
+    100%{
+        background-position: 0% center;
+    }
+  }
+
+
+
+
+
 
 /* ===========================
     PRICING PART CSS END
+=========================== */
+
+
+
+
+
+
+
+
+/* ===========================
+    WORK PART CSS START
+=========================== */
+
+#team-part{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.team-title-row{
+
+}
+.team-title{
+
+}
+
+.team-title h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 54px;
+    font-weight: 500;
+    background: linear-gradient(90deg, #00a9ff, #FFD700 , #00a9ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.team-wrapper{
+    display: flex;
+    align-items: center;
+}
+.team-img img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.team-text h4{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #FFF;
+    margin-left: 25px;
+}
+.team-row{
+    margin-top: 50px !important;
+    justify-content: space-between;
+}
+.team-col-space{
+    margin-top: 25px !important;
+}
+
+/* ===========================
+    WORK PART CSS END
 =========================== */
 
 

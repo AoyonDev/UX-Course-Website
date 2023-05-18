@@ -14,13 +14,16 @@
  }
  body{
      overflow-x: hidden;
-     background: #2c3834 !important;
+     background: #273a38 !important;
  }
  html,body{
      scroll-behavior: unset !important;
  }
 .line-break{
     display: block;
+}
+.container{
+    width: 1120px !important;
 }
 /* ===== COMMON CSS   END ===== */
 
@@ -36,7 +39,8 @@
 =========================== */
 
 #title-part{
-    padding: 100px 0px;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 .title-row{
     justify-content: center;
@@ -47,13 +51,13 @@
 
 .title-text h2{
     font-family: 'League Spartan', sans-serif;
-    font-size: 82px;
+    font-size: 68px;
     font-weight: 600;
     color: #FFF;
 }
 
 .title-magic-ani{
-    background: linear-gradient(90deg, rgba(31,250,170,1), rgba(38,120,200,1), rgba(31,250,170,1));
+    background: linear-gradient(90deg, #00a9ff, #FFD700 , #00a9ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 200%;
@@ -71,13 +75,13 @@
 
 .title-text p{
     font-family: 'League Spartan', sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 400;
-    color: #FFF;
+    color: #70d8be;
     padding-top: 25px;
 }
 .title-yellow-text{
-    color: #fcb500;
+    color: #ffd900;
 }
 
 /* ===========================
@@ -96,7 +100,7 @@
 =========================== */
 
 #course-module{
-
+    padding-bottom: 100px;
 }
 .course-row{
     justify-content: space-around;
@@ -111,7 +115,7 @@
 .course-module-wrapper{
     display: flex;
     justify-content: space-between;
-    background-color: #555;
+    background-color: #202020;
     margin-right: 40px;
     padding-top: 20px;
     padding-bottom: 24px;
@@ -133,25 +137,26 @@
 }
 .module-icon{
     font-size: 24px;
-    color: #FFF;
+    /* color: #7FC8B7; */
 }
 .module-icon i{
-    background: linear-gradient(180deg, rgba(31,250,170,1), rgba(38,120,200,1), rgba(31,250,170,1));
+    /* background: linear-gradient(180deg, #1ffaaa, #2678c8, #1ffaaa);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
+    color: #70d8be;
 }
 .module-text{
     margin-left: 25px;
 }
 .module-text .module-week{
-    color: #fcb500;
+    color: #FFDC72;
 }
 
 .module-text h5{
     font-family: 'League Spartan', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    color: #FFF;
+    color: #F7F7F7;
     margin-top: 14px;
 }
 .mentor-info{
@@ -162,7 +167,7 @@
 
 }
 .mentor-info-bg{
-    background: #FFF;
+    background: #ffffff;
     margin-right: 40px;
     border-radius: 8px;
 }
@@ -173,7 +178,7 @@
     justify-content: center;
 }
 .istructor-text{
-    background: linear-gradient(90deg, rgba(31,250,170,1), rgba(38,120,200,1), rgba(31,250,170,1));
+    background: linear-gradient(90deg, #003366, #00a9ff, #003366);
     padding: 10px;
     width: 130px;
     text-align: center;
@@ -213,10 +218,10 @@
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background: linear-gradient(90deg, rgba(31,250,170,1), rgba(38,120,200,1), rgba(31,250,170,1));
+    background: linear-gradient(90deg, #003366, #FFDC72 , #003366);
     object-fit: cover;
     overflow: hidden;
-    margin-left: -90px;
+    margin-left: 0px;
     background-size: 200%;
     animation: mentor-img-bg 200s infinite linear;
 }
@@ -239,8 +244,175 @@
 }
 
 .mentor-img-text{
-    margin-left: -110px;
+    margin-left: 0px;
 }
+
+.mentor-img-text h5{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000;
+    padding-top: 10px;
+}
+
+
+
+
+/* THIS IS MENTOR NAME HOVER ANIMATION START  */
+.word{
+    background: #003366;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fancy .letter{
+    display: inline-block;
+    background: #003366;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    background-size: 200%;
+    animation: mentor-name-ani 10s infinite linear;
+}
+@keyframes mentor-name-ani {
+        
+    0%{
+        background-position: 0% center;
+    }
+    50%{
+        background-position: -2000% center;
+    }
+    100%{
+        background-position: 0% center;
+    }
+}
+.word:hover .letter{
+    background: linear-gradient(90deg, #00a9ff, #58385c , #00a9ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-name: fancy-float;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+@keyframes fancy-float {
+        
+    0%{
+        color: red;
+    }
+    50%{
+        color: #1fc7ff;
+    }
+    100%{
+        color: red;
+    }
+}
+#full-float:hover{
+    transform: translate(-0%, 0%);
+    animation-name: fancy-float-full;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes fancy-float-full {
+        
+    0%{
+        transform: translate(-0%, 0%);
+    }
+    50%{
+        transform: translate(-2%, 2%);
+    }
+    100%{
+        transform: translate(-0%, 0%);
+    }
+}
+
+.fancy > .letter {
+    transition: transform 350ms ease;
+  }
+  
+  .fancy:hover > .letter {
+    transition-duration: 800ms;
+  }
+  
+  .fancy:hover > .letter > .inner {
+    animation: float 5s ease infinite;
+}
+
+.fancy:hover > .letter:nth-child(1) {
+    transform: translate(-80%, 60%) rotate(8deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(2) {
+    transform: translate(-40%, 20%) rotate(4deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(3) {
+    transform: translate(-10%, 60%) rotate(-6deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(4) {
+    transform: translate(0%, 8%) rotate(-8deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(5) {
+    transform: translate(0%, -20%) rotate(5deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(6) {
+    transform: translate(0%, 20%) rotate(-3deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(7) {
+    transform: translate(0%, -40%) rotate(-5deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(8) {
+    transform: translate(0%, 15%) rotate(10deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(9) {
+    transform: translate(0%, -50%) rotate(8deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(10) {
+    transform: translate(0%, 15%) rotate(-6deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(11) {
+    transform: translate(50%, -10%) rotate(-3deg);
+  }
+  
+  .fancy:hover > .letter:nth-child(12) {
+    transform: translate(120%, -30%) rotate(-10deg);
+  }
+  .fancy:hover > .letter:nth-child(13) {
+    transform: translate(120%, 20%) rotate(-12deg);
+  }
+  .fancy:hover > .letter:nth-child(14) {
+    transform: translate(120%, -10%) rotate(-20deg);
+  }
+  .fancy:hover > .letter:nth-child(15) {
+    transform: translate(280%, -50%) rotate(-15deg);
+  }
+  .fancy:hover > .letter:nth-child(16) {
+    transform: translate(130%, -40%) rotate(8deg);
+  }
+  .fancy:hover > .letter:nth-child(17) {
+    transform: translate(100%, 30%) rotate(8deg);
+  }
+  .fancy:hover > .letter:nth-child(18) {
+    transform: translate(140%, 40%) rotate(8deg);
+  }
+#text:has(.fancy:hover) .word:not(.fancy:hover) {
+    opacity: 0.2;
+  }
+/* THIS IS MENTOR NAME HOVER ANIMATION END  */
+
+
 
 .module-bottom{
     margin-top: -10px;
@@ -261,7 +433,7 @@
     font-weight: 500;
     line-height: 24px;
     color: #FFF;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-bottom: 10px;
 }
 
@@ -278,6 +450,7 @@
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
     border-radius: 8px;
     overflow: hidden;
+    filter: drop-shadow(0px 0px 10px #284d49);
 }
 
 .video-container iframe {
@@ -304,7 +477,7 @@
     font-size: 28px;
     font-weight: 500;
     line-height: 38px;
-    background: linear-gradient(90deg, rgb(250, 235, 31), rgb(255, 136, 0), rgb(229, 233, 9));
+    background: linear-gradient(90deg, #00a9ff, #FFD700 , #00a9ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 200%;
@@ -341,6 +514,10 @@
     transform: scale(1.2);
 }
 
+.course-price{
+    color: #e9cb22  ;
+    font-weight: 600;
+}
 
 
 .gradient-button {
@@ -353,7 +530,7 @@
     border-radius: 4px;
     border: none;
     cursor: pointer;
-    background: linear-gradient(90deg, rgba(31,250,170,1), rgba(38,120,200,1), rgba(31,250,170,1));
+    background: linear-gradient(90deg, #026191, #40bba6 , #026191);
     background-size: 200% auto;
     animation: gradient-animation 200s linear infinite;
   }
@@ -384,13 +561,118 @@
 
 
 /* ===========================
-    HOME PART CSS START
+    COURSE INRO PART CSS START
 =========================== */
 
+#course-info{
+    padding: 100px 0px;
+}
+.course-head{
+    margin-left: 85px;
+}
+.heading{
+    padding-bottom: 50px;
+}
 
+.heading h5{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 44px;
+    font-weight: 500;
+    background: linear-gradient(90deg, #00a9ff, #FFD700 , #00a9ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heading p{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFF;
+    padding-top: 20px;
+}
+.common-color-text{
+    color: #00ffd5;
+}
+
+.course-info-row{
+    justify-content: center;
+    margin: 25px 0px;
+}
+.course-card{
+    background: #555;
+    /* padding: 10px; */
+    border-radius: 8px;
+    height: 300px;
+}
+.card-info{
+    display: flex;
+    
+}
+.card-text{
+    display: flex;
+    padding-top: 20px;
+}
+.card-text i{
+    font-size: 22px;
+    color: #00ffd5;
+}
+.card-text h4{
+    font-family: 'League Spartan', sans-serif;
+    padding-bottom: 22px;
+    padding-left: 22px;
+    padding-right: 8px;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFF;
+}
+.card-bottom-text{
+    padding-top: 30px;
+}
+.card-bottom-text p{
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(90deg,#01eb8c,#00d5e2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 8px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.card-bottom-bonus-text p{
+    color: #FFD700;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 8px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.card-text .bonus-icon{
+    font-size: 22px;
+    color: #FFD700;
+}
+.card-img-bg{
+    background-color: #565656;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0,0,0,.25);
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+
+.card-img-bg img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
 
 /* ===========================
-    HOME PART CSS END
+    COURSE INRO PART CSS END
 =========================== */
 
 

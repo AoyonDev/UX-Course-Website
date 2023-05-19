@@ -1188,9 +1188,9 @@
 =========================== */
 
 #workshop{
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     padding-top: 50px;
-    background: #dedede;
+    background: #e7e7e7;
 }
 .common-color{
     color: #e07b0b !important;

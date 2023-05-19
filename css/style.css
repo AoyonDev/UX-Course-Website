@@ -14,7 +14,7 @@
  }
  body{
      overflow-x: hidden;
-     background: #273a38 !important;
+     background: #FFF !important;
  }
  html,body{
      scroll-behavior: unset !important;
@@ -53,11 +53,11 @@
     font-family: 'DM Sans', sans-serif;
     font-size: 68px;
     font-weight: 600;
-    color: #FFF;
+    color: #000;
 }
 
 .title-magic-ani{
-    background: linear-gradient(90deg, #00a9ff, #FFD700 , #00a9ff);
+    background: linear-gradient(90deg, #000, #FFD700 , #000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 200%;
@@ -76,12 +76,12 @@
 .title-text p{
     font-family: 'DM Sans', sans-serif;
     font-size: 24px;
-    font-weight: 400;
-    color: #70d8be;
+    font-weight: 500;
+    color: #000;
     padding-top: 25px;
 }
 .title-yellow-text{
-    color: #ffd900;
+    color: #ffb500;
 }
 
 /* ===========================
@@ -136,15 +136,26 @@
     padding: 5px 0px;
 }
 .module-icon{
-    font-size: 24px;
+    font-size: 28px;
     /* color: #7FC8B7; */
 }
 .module-icon i{
-    /* background: linear-gradient(180deg, #1ffaaa, #2678c8, #1ffaaa);
+    background: linear-gradient(90deg, #ffa600, #FFD700 , #ffa600);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
-    color: #70d8be;
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    animation: module-card-icon-ani 20s infinite linear;
 }
+@keyframes module-card-icon-ani {
+        
+    0%{
+        background-position: 0% center;
+    }
+    50%{
+        background-position: 200% center;
+    }
+}
+
 .module-text{
     margin-left: 25px;
 }
@@ -167,7 +178,7 @@
 
 }
 .mentor-info-bg{
-    background: #ffffff;
+    background: #f2f2f2;
     margin-right: 40px;
     border-radius: 8px;
 }
@@ -178,7 +189,7 @@
     justify-content: center;
 }
 .istructor-text{
-    background: linear-gradient(90deg, #003366, #00a9ff, #003366);
+    background: radial-gradient(circle,  #ffa600, #FFD700 , #ffa600);
     padding: 10px;
     width: 130px;
     text-align: center;
@@ -191,7 +202,7 @@
     line-height: 24px;
     background-size: 200%;
     animation: instructor-ani 200s infinite linear;
-    color: #FFF;
+    color: #000;
 }
 @keyframes instructor-ani {
         
@@ -218,11 +229,11 @@
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background: linear-gradient(90deg, #003366, #FFDC72 , #003366);
+    background: radial-gradient(circle,  #ffa600, #ffe600 , #ffa600);
     object-fit: cover;
     overflow: hidden;
     margin-left: 0px;
-    background-size: 200%;
+    background-size: 100%;
     animation: mentor-img-bg 200s infinite linear;
 }
 @keyframes mentor-img-bg {
@@ -261,14 +272,14 @@
 
 /* THIS IS MENTOR NAME HOVER ANIMATION START  */
 .word{
-    background: #003366;
+    background: #000;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .fancy .letter{
     display: inline-block;
-    background: #003366;
+    background: #000;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'DM Sans', sans-serif;
@@ -290,7 +301,7 @@
     }
 }
 .word:hover .letter{
-    background: linear-gradient(90deg, #00a9ff, #58385c , #00a9ff);
+    background: linear-gradient(90deg, #000, #000, #000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation-name: fancy-float;
@@ -421,7 +432,7 @@
 }
 .module-bottom-text{
     text-align: center;
-    background: #555;
+    background: #202020;
     padding: 10px 25px;
     margin-right: 40px;
     border-bottom-left-radius: 8px;
@@ -450,7 +461,7 @@
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
     border-radius: 8px;
     overflow: hidden;
-    filter: drop-shadow(0px 0px 10px #284d49);
+    filter: drop-shadow(0px 0px 10px #000);
 }
 
 .video-container iframe {
@@ -470,14 +481,14 @@
     font-size: 26px;
     font-weight: 500;
     line-height: 38px;
-    color: #FFF;
+    color: #000;
 }
 .video-text h4 a{
     font-family: 'DM Sans', sans-serif;
     font-size: 26px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 38px;
-    background: linear-gradient(90deg, #00a9ff, #FFD700 , #00a9ff);
+    background: linear-gradient(90deg, #000, #FFD700, #000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 200%;
@@ -507,7 +518,7 @@
     font-size: 24px;
     font-weight: 500;
     line-height: 24px;
-    color: #FFF;
+    color: #000;
     padding: 10px 20px;
 }
 .course-btn:hover{
@@ -515,39 +526,29 @@
 }
 
 .course-price{
-    color: #e9cb22  ;
+    color: #000  ;
     font-weight: 600;
 }
 
 
 .gradient-button {
     display: inline-block;
-    padding: 12px 24px;
-    font-size: 18px;
-    color: #fff;
+    padding: 12px 44px;
+    font-size: 28px;
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 4px;
     border: none;
     cursor: pointer;
-    background: linear-gradient(90deg, #026191, #40bba6 , #026191);
-    background-size: 200% auto;
-    animation: gradient-animation 200s linear infinite;
-  }
+    background: #FFD700;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000;
+    padding: 10px 20px;
+}
   
-  /* Keyframe animation for the button */
-  @keyframes gradient-animation {
-    0%{
-        background-position: 0% center;
-    }
-    50%{
-        background-position: -2000% center;
-    }
-    100%{
-        background-position: 0% center;
-    }
-  }
-
 
 /* ===========================
     COURSE MODULE PART CSS END
@@ -566,6 +567,7 @@
 
 #course-info{
     padding: 100px 0px;
+    background: #DEDEDE;
 }
 .course-head{
     margin-left: 85px;
@@ -578,7 +580,7 @@
     font-family: 'DM Sans', sans-serif;
     font-size: 44px;
     font-weight: 500;
-    background: linear-gradient(90deg, #00a9ff, #FFD700 , #00a9ff);
+    background: #000;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -588,11 +590,11 @@
     font-size: 28px;
     font-weight: 400;
     line-height: 28px;
-    color: #FFF;
+    color: #000;
     padding-top: 20px;
 }
 .common-color-text{
-    color: #00ffd5;
+    color: #e07b0b;
 }
 
 .course-info-row{
@@ -615,7 +617,7 @@
 }
 .card-text i{
     font-size: 22px;
-    color: #00ffd5;
+    color: #FFD700;
 }
 .card-text h4{
     font-family: 'DM Sans', sans-serif;
@@ -631,7 +633,7 @@
 }
 .card-bottom-text p{
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(90deg,#01eb8c,#00d5e2);
+    background: linear-gradient(90deg, #ffa600, #FFD700, #ffa600);
     -webkit-background-clip: text;
     background-clip: text;
     padding-bottom: 24px;
@@ -701,7 +703,7 @@
     font-family: 'DM Sans', sans-serif;
     font-size: 44px;
     font-weight: 500;
-    background: linear-gradient(90deg, #00a9ff, #FFD700 , #00a9ff);
+    background: linear-gradient(90deg, #000, #000, #000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -711,26 +713,84 @@
     font-size: 22px;
     font-weight: 400;
     line-height: 38px;
-    color: #FFF;
+    color: #000;
     padding-top: 20px;
 }
 .common-color-text{
-    color: #FFD700;
+    color: #e07b0b;
 }
 
 
 .work-img-row{
     justify-content: center;
 }
-.work-image{
-    text-align: center;
-    margin: 0 auto;
+.work-shape-wrapper{
+    padding: 100px 0px;
 }
-.work-image img{
-    scale: 1.1;
+.work-main-circle{
+    height: 500px;
+    width: 500px;
+    background: radial-gradient(circle at center, yellow 10%, white 100%);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+
+}
+.work-front-circle{
+    height: 250px;
+    width: 250px;
+    background: radial-gradient(circle at center, orange 5%, yellow 100%);
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+.circle-text{
+    position: absolute;
+    bottom: -100px;
+    left: 0px;
+}
+.line-shape-1 {
+    height: 150px;
+    width: 150px;
+    background: black;
+    position: absolute;
+    top: -260px;
+    left: 50px;
+    transform: rotate(90deg);
+    clip-path: polygon(41% 30%, 41% 46%, 100% 46%, 100% 52%, 41% 52%, 41% 70%, 18% 50%);
+    z-index: -1;
+}
+.line-shape-2 {
+    height: 150px;
+    width: 150px;
+    background: black;
+    position: absolute;
+    bottom: -85px;
+    left: -240px;
+    transform: rotate(-30deg);
+    clip-path: polygon(41% 30%, 41% 46%, 100% 46%, 100% 52%, 41% 52%, 41% 70%, 18% 50%);
+    z-index: -1;
+}
+.line-shape-3 {
+    height: 150px;
+    width: 150px;
+    background: #000;
+    position: absolute;
+    bottom: -95px;
+    right: -235px;
+    transform: rotate(207deg);
+    clip-path: polygon(41% 30%, 41% 46%, 100% 46%, 100% 52%, 41% 52%, 41% 70%, 18% 50%);
+    z-index: -1;
 }
 
-
+.selector{
+    clip-path: polygon(40% 0%, 40% 41%, 100% 41%, 100% 63%, 40% 64%, 40% 100%, 0% 50%);
+width: 100px;
+height: 50px;
+background: teal;
+}
 
 /* ===========================
     WORK HELP PART CSS END
@@ -748,7 +808,7 @@
 =========================== */
 
 #pricing-part{
-    padding-top: 100px;
+    padding-top: 500px;
     padding-bottom: 150px;
 }
 .pricing-title-row{
@@ -762,7 +822,7 @@
     font-family: 'DM Sans', sans-serif;
     font-size: 54px;
     font-weight: 500;
-    background: linear-gradient(90deg, #00a9ff, #FFD700 , #00a9ff);
+    background: linear-gradient(90deg, #000, #000, #000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -772,11 +832,11 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
-    color: #FFF;
+    color: #000;
     padding-top: 20px;
 }
 .common-color-text{
-    color: #FFD700;
+    color: #e07b0b;
 }
 
 
@@ -806,8 +866,8 @@
     text-align: center;
     font-family: 'DM Sans', sans-serif;
     font-size: 22px;
-    font-weight: 400;
-    color: #FFD700;
+    font-weight: 600;
+    color: #000;
 }
 
 .card-name{
@@ -858,7 +918,7 @@
     font-family: 'DM Sans', sans-serif;
     font-size: 28px;
     font-weight: 500;
-    background: linear-gradient(90deg, #1bffc6, #03ff81 , #1bffc6);
+    background: linear-gradient(90deg, #FFD700, #FFD700, #FFD700);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -875,11 +935,11 @@
     position: relative;
 }
 .price-bg {
-    background: #FFF;
+    background: #888888;
     padding-top: 10px;
     padding-bottom: 6px;
     border-radius: 8px;
-    width: 117%;
+    width: 116.5%;
     position: absolute;
     top: 10px;
     left: -20px;
@@ -889,10 +949,10 @@
     font-family: 'DM Sans', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    color: #555;
+    color: #FFF;
 }
 .price-bg h4 span{
-    background-image: linear-gradient(90deg, #026191, #40bba6 , #026191);
+    background: linear-gradient(90deg, #000, #FFD700, #000);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -962,7 +1022,7 @@
     font-size: 24px;
     font-weight: 500;
     line-height: 24px;
-    color: #FFF;
+    color: #000;
 }
 
 
@@ -980,7 +1040,7 @@
     font-size: 24px;
     font-weight: 500;
     line-height: 24px;
-    color: #FFF;
+    color: #000;
     padding: 10px 20px;
 }
 .pricing-btns:hover{
@@ -992,33 +1052,15 @@
     display: inline-block;
     padding: 12px 44px;
     font-size: 28px;
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 4px;
     border: none;
     cursor: pointer;
-    background: linear-gradient(90deg, #026191, #40bba6 , #026191);
-    background-size: 200% auto;
-    animation: pricing-animation 200s linear infinite;
+    background: #FFD700;
   }
   
-  /* Keyframe animation for the button */
-  @keyframes pricing-animation {
-    0%{
-        background-position: 0% center;
-    }
-    50%{
-        background-position: -2000% center;
-    }
-    100%{
-        background-position: 0% center;
-    }
-  }
-
-
-
-
 
 
 /* ===========================
@@ -1050,8 +1092,8 @@
 .team-title h5{
     font-family: 'DM Sans', sans-serif;
     font-size: 54px;
-    font-weight: 500;
-    background: linear-gradient(90deg, #00a9ff, #FFD700 , #00a9ff);
+    font-weight: 600;
+    background: linear-gradient(90deg, #000, #000, #000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1070,7 +1112,7 @@
     font-size: 22px;
     font-weight: 500;
     line-height: 22px;
-    color: #FFF;
+    color: #000;
     margin-left: 25px;
 }
 .team-row{

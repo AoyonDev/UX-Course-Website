@@ -725,39 +725,53 @@
     justify-content: center;
 }
 .work-shape-wrapper{
-    padding: 100px 0px;
+    padding-top: 300px;
+    padding-bottom: 150px;
 }
-.work-main-circle{
-    height: 500px;
-    width: 500px;
+.work-main-circle {
+    height: 400px;
+    width: 400px;
     background: radial-gradient(circle at center, yellow 10%, white 100%);
     border-radius: 50%;
     position: absolute;
     top: 50%;
-    left: 25%;
-
+    left: 40%;
 }
-.work-front-circle{
-    height: 250px;
-    width: 250px;
+.work-front-circle {
+    height: 200px;
+    width: 200px;
     background: radial-gradient(circle at center, orange 5%, yellow 100%);
     border-radius: 50%;
     position: absolute;
     top: 25%;
     left: 25%;
 }
-.circle-text{
+.work-front-circle img {
+    margin: 50px;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+.circle-text {
     position: absolute;
-    bottom: -100px;
-    left: 0px;
+    bottom: -230px;
+    left: 5%;
+}
+.circle-text h4 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 44px;
+    color: #000;
+    text-align: center;
 }
 .line-shape-1 {
     height: 150px;
     width: 150px;
     background: black;
     position: absolute;
-    top: -260px;
-    left: 50px;
+    top: -215px;
+    left: 20px;
     transform: rotate(90deg);
     clip-path: polygon(41% 30%, 41% 46%, 100% 46%, 100% 52%, 41% 52%, 41% 70%, 18% 50%);
     z-index: -1;
@@ -767,9 +781,9 @@
     width: 150px;
     background: black;
     position: absolute;
-    bottom: -85px;
-    left: -240px;
-    transform: rotate(-30deg);
+    bottom: -110px;
+    left: -170px;
+    transform: rotate(-40deg);
     clip-path: polygon(41% 30%, 41% 46%, 100% 46%, 100% 52%, 41% 52%, 41% 70%, 18% 50%);
     z-index: -1;
 }
@@ -778,19 +792,50 @@
     width: 150px;
     background: #000;
     position: absolute;
-    bottom: -95px;
-    right: -235px;
-    transform: rotate(207deg);
+    bottom: -110px;
+    right: -170px;
+    transform: rotate(215deg);
     clip-path: polygon(41% 30%, 41% 46%, 100% 46%, 100% 52%, 41% 52%, 41% 70%, 18% 50%);
     z-index: -1;
 }
 
-.selector{
-    clip-path: polygon(40% 0%, 40% 41%, 100% 41%, 100% 63%, 40% 64%, 40% 100%, 0% 50%);
-width: 100px;
-height: 50px;
-background: teal;
+.line-1-text {
+    position: absolute;
+    top: -160px;
+    left: 50px;
 }
+.line-1-text h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #000;
+}
+.line-2-text {
+    position: absolute;
+    bottom: -30px;
+    left: -350px;
+}
+.line-2-text h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #000;
+}
+.line-3-text {
+    position: absolute;
+    bottom: -30px;
+    right: -350px;
+}
+.line-3-text h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #000;
+}
+
 
 /* ===========================
     WORK HELP PART CSS END
@@ -807,9 +852,11 @@ background: teal;
     PRICING PART CSS START
 =========================== */
 
-#pricing-part{
-    padding-top: 500px;
+#pricing-part {
+    margin-top: 400px;
     padding-bottom: 150px;
+    padding-top: 100px;
+    background: #dedede;
 }
 .pricing-title-row{
 
@@ -1127,6 +1174,99 @@ background: teal;
 
 /* ===========================
     WORK PART CSS END
+=========================== */
+
+
+
+
+
+
+
+
+/* ===========================
+    WORKSHOP PART CSS START
+=========================== */
+
+#workshop{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background: #dedede;
+}
+.common-color{
+    color: #e07b0b !important;
+}
+.workshop-title-row{
+    padding: 100px 0px;
+}
+.workshop-title{
+
+}
+
+.workshop-title h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 54px;
+    font-weight: 500;
+    background: linear-gradient(90deg, #000, #000, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.workshop-title p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #000;
+    padding-top: 20px;
+}
+
+
+.work-card{
+    padding: 15px 30px;
+    border-radius: 8px;
+    background: #555;
+    display: flex;
+    align-items: center;
+}
+
+.work-icon{
+    padding-right: 20px;
+}
+
+.work-icon i{
+    font-size: 24px;
+    color: #FFF;
+}
+.work-text{
+    
+}
+.work-text p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFF;
+    margin-bottom: 0px !important;
+}
+
+.work-white-space{
+    margin: 50px 0px;
+}
+
+.work-card{
+    position: relative;
+}
+.work-next-arrow {
+    position: absolute;
+    top: 50px;
+    left: 310px;
+}
+
+
+
+
+
+/* ===========================
+    WORKSHOP PART CSS END
 =========================== */
 
 

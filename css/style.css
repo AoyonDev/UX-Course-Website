@@ -1323,7 +1323,31 @@
 }
 
 .video-col{
+    margin: 20px 0px;
+}
+
+.review-image-row{
+    padding: 25px 0px;
+    background: #e0e0e0;
+}
+.review-image-text{
+    text-align: center;
+    padding: 30px 0px;
+}
+.review-image-text h4{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #000;
+}
+.review-image{
     margin: 10px 0px;
+    text-align: center;
+}
+.review-image img{
+    width: 300px;
+    object-fit: cover;
 }
 
 

@@ -1020,10 +1020,6 @@
   }
 
 
-
-
-
-
 .prev-next-icon{
     position: relative;
 }
@@ -1072,9 +1068,6 @@
     color: #000;
 }
 
-
-
-
 .pricing-btns{
     text-align: center;
     margin-top: 50px;
@@ -1093,7 +1086,6 @@
 .pricing-btns:hover{
     transform: scale(1.2);
 }
-
 
 .gradient-button {
     display: inline-block;
@@ -1262,11 +1254,81 @@
 }
 
 
+/* ===========================
+    WORKSHOP PART CSS END
+=========================== */
+
+
+
+
+
 
 
 
 /* ===========================
-    WORKSHOP PART CSS END
+    REVIERW PART CSS START
+=========================== */
+
+#review-part{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.common-color{
+    color: #e07b0b !important;
+}
+.review-title-row{
+
+}
+.review-title{
+
+}
+.review-title h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 54px;
+    font-weight: 500;
+    background: linear-gradient(90deg, #000, #000, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.review-title p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #000;
+    padding-top: 20px;
+}
+.review-video-row{
+    padding: 25px 0px;
+}
+
+.course-video{
+    text-align: center;
+}
+.review-video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    overflow: hidden;
+    /* filter: drop-shadow(0px 0px 10px #000); */
+}
+
+.review-video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-col{
+    margin: 10px 0px;
+}
+
+
+/* ===========================
+    REVIERW PART CSS END
 =========================== */
 
 

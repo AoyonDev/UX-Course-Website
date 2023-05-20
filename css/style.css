@@ -1413,7 +1413,10 @@
         background-position: 200% center;
     }
 }
-
+.offer-main-row{
+    justify-content: space-between;
+    align-items: center;
+}
 .offer-info-wrapper{
     display: flex;
 }
@@ -1456,8 +1459,54 @@
     font-family: 'DM Sans', sans-serif;
     font-size: 20px;
     font-weight: 500;
+    color: #000;
     margin-top: -5px;
 }
+
+
+.offer-card-bg{
+    background: #555;
+    padding: 20px;
+    border-radius: 20px;
+}
+.offer-card-heading{
+
+}
+.offer-card-heading h4{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFF;
+    padding-bottom: 20px;
+}
+.offer-card-heading p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: #ffe3c4;
+    padding-bottom: 40px;
+}
+.offer-card-icon{
+    margin-right: 20px;
+}
+.offer-card-icon i{
+    font-size: 24px;
+    color: #ffe3c4;
+}
+.offer-card-text{
+
+}
+.offer-card-text p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: #FFF;
+    margin-top: -8px;
+}
+
+
+
+
 
 
 /* ===========================

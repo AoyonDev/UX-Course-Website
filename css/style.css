@@ -1435,16 +1435,18 @@
     margin-top: -5px;
 }
 .common-bold{
-    font-weight: 600;
+    font-weight: 700;
     color: #e07b0b;
 }
 
-
+.bonuse-title{
+    padding-bottom: 50px;
+}
 .bonus-offer-icon{
     margin-right: 20px;
 }
 .bonus-offer-icon i{
-    color: #000;
+    color: #e07b0b;
     font-size: 22px;
 }
 .bonus-offers-list{

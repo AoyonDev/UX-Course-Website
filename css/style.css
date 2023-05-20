@@ -1374,6 +1374,102 @@
 
 
 /* ===========================
+    OFFERS PART CSS START
+=========================== */
+
+#offers-part{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.offers-title-row{
+    justify-content: center;
+}
+
+
+.offers-title h5{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: #000;
+}
+
+.offers-magic-ani{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 25px;
+    background: linear-gradient(90deg, #000, #e07b0b , #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    animation: offers-magic-ani 10s infinite linear;
+}
+@keyframes offers-magic-ani {
+        
+    0%{
+        background-position: 0% center;
+    }
+    50%{
+        background-position: 200% center;
+    }
+}
+
+.offer-info-wrapper{
+    display: flex;
+}
+
+.offer-icon{
+    margin-right: 20px;
+}
+.offer-icon i{
+    color: #000;
+    font-size: 22px;
+}
+.offers-list{
+    margin: 30px 0px;
+}
+.offer-list-text p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -5px;
+}
+.common-bold{
+    font-weight: 600;
+    color: #e07b0b;
+}
+
+
+.bonus-offer-icon{
+    margin-right: 20px;
+}
+.bonus-offer-icon i{
+    color: #000;
+    font-size: 22px;
+}
+.bonus-offers-list{
+    margin: 40px;
+}
+.bonus-offer-list-text p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -5px;
+}
+
+
+/* ===========================
+    OFFERS PART CSS END
+=========================== */
+
+
+
+
+
+
+
+
+/* ===========================
     HOME PART CSS START
 =========================== */
 
